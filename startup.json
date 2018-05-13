@@ -1,0 +1,17 @@
+{
+  "apps": [
+    {
+      "name": "fit.test",
+      "script": "server",
+      "instances": "max",
+      "exec_mode": "cluster",
+      "merge_logs": true,
+      "watch": false,
+      "error_file": "/var/log/nodejs/fit-test-errors.log",
+      "out_file": "/var/log/nodejs/fit-test-messages.log",
+      "log_date_format": "YYYY-MM-DD HH:mm Z",
+      "env": {
+      }
+    }
+  ]
+}

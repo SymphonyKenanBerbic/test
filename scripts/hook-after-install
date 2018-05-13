@@ -1,0 +1,3 @@
+#!/bin/bash
+
+unzip -o /home/ubuntu/fit.test/fit.zip -d /home/ubuntu/fit.test/

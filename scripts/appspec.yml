@@ -1,0 +1,22 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /home/ubuntu/fit.test
+permissions:
+  - object: /home/ubuntu/fit.test
+    mode: 4755
+    owner: ubuntu
+    group: ubuntu
+hooks:
+  AfterInstall:
+    - location: ./hook-after-install
+      timeout: 60
+      runas: ubuntu
+  ApplicationStart:
+    - location: ./hook-application-start
+      timeout: 60
+      runas: ubuntu
+  ApplicationStop:
+    - location: ./hook-application-stop
+      timeout: 60
