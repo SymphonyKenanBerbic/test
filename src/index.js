@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App, {Header, FirstPage} from './App';
+import {Dashboard, FirstPage} from './views';
+import {Header} from "./components";
 import registerServiceWorker from './registerServiceWorker';
 
 import {
@@ -14,7 +15,7 @@ ReactDOM.render(
     <Router>
         <div>
             <Header />
-            <Route exact path="/" component={App}/>
+            <Route exact path="/" component={Dashboard}/>
             <Route path="/firstPage" component={FirstPage}/>
         </div>
     </Router>, document.getElementById('root'));
