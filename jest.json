@@ -1,0 +1,32 @@
+{
+  "stats": {
+    "tests": 3,
+    "passes": 3,
+    "failures": 0,
+    "duration": 1200,
+    "start": "2018-05-14T10:16:56.271Z",
+    "end": "2018-05-14T10:16:57.471Z"
+  },
+  "failures": [],
+  "passes": [
+    {
+      "title": "renders without crashing",
+      "fullTitle": " renders without crashing",
+      "duration": 625,
+      "errorCount": 0
+    },
+    {
+      "title": "test on click action",
+      "fullTitle": " test on click action",
+      "duration": 625,
+      "errorCount": 0
+    },
+    {
+      "title": "renders without crashing",
+      "fullTitle": " renders without crashing",
+      "duration": 88,
+      "errorCount": 0
+    }
+  ],
+  "skipped": []
+}
