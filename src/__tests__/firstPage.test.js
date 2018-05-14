@@ -3,7 +3,7 @@ import {FirstPage} from "../views";
 import renderer from 'react-test-renderer';
 
 
-test('renders without crashing', async () => {
+test('renders without crashing first page', async () => {
     const component = renderer.create(<FirstPage />);
     let tree = component.toJSON();
     expect(tree).toMatchSnapshot();
