@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d13b6c46-d463-412c-90d1-e8d8efac64f9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/__tests__/dashboard.test.js" afterPath="$PROJECT_DIR$/src/__tests__/dashboard.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/__tests__/firstPage.test.js" afterPath="$PROJECT_DIR$/src/__tests__/firstPage.test.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,7 +18,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
@@ -84,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dashboard.test.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="dashboard.test.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/__tests__/dashboard.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="60">
+              <caret line="4" column="38" lean-forward="false" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -99,8 +101,8 @@
       <file leaf-file-name="firstPage.test.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/__tests__/firstPage.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="35" />
+            <state relative-caret-position="75">
+              <caret line="5" column="41" lean-forward="false" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -149,10 +151,10 @@
         <option value="$PROJECT_DIR$/src/views/dashboard/index.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/views/firstPage/index.js" />
-        <option value="$PROJECT_DIR$/src/__tests__/dashboard.test.js" />
         <option value="$PROJECT_DIR$/src/views/index.js" />
-        <option value="$PROJECT_DIR$/src/__tests__/firstPage.test.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/__tests__/firstPage.test.js" />
+        <option value="$PROJECT_DIR$/src/__tests__/dashboard.test.js" />
       </list>
     </option>
   </component>
@@ -282,12 +284,12 @@
       <option name="presentableId" value="Default" />
       <updated>1526074969037</updated>
       <workItem from="1526074970345" duration="2578000" />
-      <workItem from="1526227694386" duration="3804000" />
+      <workItem from="1526227694386" duration="3832000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6382000" />
+    <option name="totallyTimeSpent" value="6410000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -508,16 +510,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/__tests__/dashboard.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -528,21 +520,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/__tests__/firstPage.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="35" />
+        <state relative-caret-position="75">
+          <caret line="5" column="41" lean-forward="false" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/src/__tests__/dashboard.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="60">
+          <caret line="4" column="38" lean-forward="false" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
