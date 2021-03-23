@@ -1,7 +1,0 @@
-#!/bin/bash
-
-cd /home/ubuntu/fit.test
-
-/usr/bin/pm2 startOrReload /home/ubuntu/fit.test/startup.json
-
-/usr/bin/pm2 save

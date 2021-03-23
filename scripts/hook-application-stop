@@ -1,3 +1,0 @@
-#!/bin/bash
-
-/usr/bin/pm2 stop /home/ubuntu/fit.test/startup.json
