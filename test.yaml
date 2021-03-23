@@ -1,0 +1,66 @@
+apiVersion: stable.tio.com/v1alpha1
+kind: Environment
+metadata:
+  name: nss-adapt-dev
+  namespace: 4641690
+spec:
+  teamName: "nss-adapt"
+  envName: "dev"
+  cloud: "aws"
+  terraformConfigs:
+    - configName: networking
+      module:
+        source: "github.com/terraform-aws-modules/terraform-aws-vpc"
+        path: "."
+      variablesFile:
+        source: "git@github.com:tiodev/tio-tyrion-config.git"
+        path: "networking.tfvars"
+    - configName: platform-eks
+      dependsOn: [networking]
+      module:
+        source: "github.com/terraform-aws-modules/terraform-aws-s3-bucket"
+        path: "."
+      variables:
+        - name: bucket
+          value: "nss-adapt-dev-test-bucketkjhaskjhas78jhgsdjnging"
+        - name: block_public_acls
+          value: "true"
+        - name: block_public_policy
+          value: "true"
+        - name: ignore_public_acls
+          value: "true"
+        - name: restrict_public_buckets
+          value: "true"
+      outputs: ""
+    - configName: platform-s3
+      module:
+        source: "github.com/terraform-aws-modules/terraform-aws-s3-bucket"
+        path: "."
+      variables:
+        - name: bucket
+          value: "nss-adapt-dev-shoe-data"
+        - name: block_public_acls
+          value: "true"
+        - name: block_public_policy
+          value: "true"
+        - name: ignore_public_acls
+          value: "true"
+        - name: restrict_public_buckets
+          value: "true"
+      outputs: ""
+    - configName: common-s3
+      module:
+        source: "github.com/terraform-aws-modules/terraform-aws-s3-bucket"
+        path: "."
+      variables:
+        - name: bucket
+          value: "nss-adapt-dev-common-s3-kjhaskjhas78jhgsdjnging"
+        - name: block_public_acls
+          value: "true"
+        - name: block_public_policy
+          value: "true"
+        - name: ignore_public_acls
+          value: "true"
+        - name: restrict_public_buckets
+          value: "true"
+      outputs: ""
